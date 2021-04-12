@@ -76,7 +76,7 @@ annotation for multiple genes). Fortunately, you can also make batch queries via
 need::
 
 
-    URL: http://mygeneset.info/v1/gene
+    URL: http://mygeneset.info/v1/geneset
     HTTP method:  POST
 
 
@@ -94,7 +94,7 @@ fields
 
 species
 """""""""""
-    Optional, can be used to limit the gene hits to a given species. You can use "common names" for 17 common species. All other species, you can provide their taxonomy ids. See `more details here <data.html#species>`_. Multiple species can be passed using comma as a separator. Passing "all" will query against all available species. Default: all.
+    Optional, can be used to limit the geneset hits to a given species. You can use "common names" for 17 common species. All other species, you can provide their taxonomy ids. See `more details here <data.html#species>`_. Multiple species can be passed using comma as a separator. Passing "all" will query against all available species. Default: all.
 
 dotfield
 """"""""""
